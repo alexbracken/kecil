@@ -6402,7 +6402,7 @@
 		}
 
 		.gallery.style1.small article {
-			width: 20%;
+			width: 15%;
 		}
 
 			.gallery.style1.small article .caption {
@@ -6412,7 +6412,7 @@
 		@media screen and (max-width: 1280px) {
 
 			.gallery.style1.small article {
-				width: 25%;
+				width: 20%;
 			}
 
 				.gallery.style1.small article .caption {
