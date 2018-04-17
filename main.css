@@ -114,6 +114,10 @@ ul li{
         padding-right: 5%;
         text-align: center;
     }
+    
+    .headline{
+        margin-top: 10px;
+    }
 }
 
 
@@ -123,6 +127,16 @@ ul li{
     }
 }
 
+@media only screen and (max-width: 500px){
+    .wrapper{
+        width: 95%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+    .iconBarImg{
+        width: 25%;
+    }
+}
 
 
 
