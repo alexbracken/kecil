@@ -1,0 +1,135 @@
+/********** GLOBALS **********/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+    width: 30%;
+    padding-left: 35%;
+    padding-right: 35%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/********** MAIN **********/
+
+h1 {
+    font-size: 100pt;
+    color: #333;
+}
+
+h2{
+    font-size: 12pt;
+    color: #333;
+}
+
+h3{
+    font-size: 16pt;
+    color: #333;
+}
+
+p{
+    font-size: 12pt;
+    color: #333;
+    line-height: 40px;
+}
+
+
+ul li{
+    display: inline;
+}
+
+
+.nav{
+    display: inline;
+    margin-top: 75px;
+}
+
+.linkIcon{
+    height: 50px;
+    width: 50px;
+}
+
+.linksHeadline{
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.features ul li{
+    list-style-type: circle;
+}
+
+.features{
+    margin-bottom: 25px;
+}
+
+.headline{
+    margin-top: 100px;
+    margin-bottom: -15px;
+}
+
+.gallery{
+    width: 90%;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.gallery img{
+    width: calc(100%/7);
+}
+
+.screenshotWrapper{
+    margin-top: 10%;
+}
+
+
+@media only screen and (max-width: 1400px){
+    .wrapper{
+        width: 50%;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}
+
+
+@media only screen and (max-width: 800px){
+    .wrapper{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 1000px){
+    .gallery img{
+        width: 33%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
